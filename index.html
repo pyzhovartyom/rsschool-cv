@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS & GIT</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+  <body id="body">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="menu">
+            <li class="leftmenu"><a href="index.html">Main</a></li>
+            <li class="rightmenu"><a href="#skills">Skills</a></li>
+            <li class="rightmenu"><a href="#workExp">Career</a></li>
+            <li class="rightmenu"><a href="#education">Education</a></li>
+            <li class="rightmenu"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article class="bio">
+          <div class="personalInfo">
+            <h1>Artyom Pyzhov</h1>
+            <p>I'm 25.<br>Live in Mogilev, Belarus.<br>Study front-end development since May, 2020</p>
+          </div>
+        </article>
+        <article class="skillsAndCode" id="skills">
+          <div>
+            <section class="skills">
+              <h2>SKILLS</h2>
+              <ul>
+                <li>Stress resistance</li>
+                <li>Self-organised</li>
+                <li>Perseverance</li>
+                <li>Adaptability</li>
+                <li>Managing people</li>
+                <li>B2C communication</li>
+              </ul>
+            </section>
+            <section class="code">
+              <h2>Code Examples</h2>
+              <p><code>export default props => (
+                        <div style {{border: 2px solid #ccc , width: 300px}} className= "car">
+                            <h1 style {{color: #b34}}>Car name: {props.name}</h1> 
+                            <p>Year: {props.year}</p>
+                            <h2>Price: {props.price}</h2>
+                            <h3 style {{color: #f74}}>Your lucky nuber is {Math.round(Math.random() * 10)}</h3>
+                            {/* { props.children } */} 
+                        </div>
+                        )</code>
+              </p>
+            </section>
+          </div>  
+        </article>
+        <article class="workExp" id="workExp">
+          <div>
+            <h2>WORK EXPERIENCE</h2>
+            <table>
+              <tbody>
+                <colgroup>
+                  <col>
+                  <col style="width: 800px;">
+                </colgroup>
+                <tr>
+                  <td>Feb, 2020 - July, 2020</td>
+                  <td class="worktype">- Work the same shop as entrepreneur. I have had to sell this business because of COVID-19 influence on shop's processes.</td>
+                </tr>
+                <tr>
+                  <td>May, 2018 - Feb, 2020</td>
+                  <td class="worktype">- Online-shop GOLOVOLOM.BY Manager. Responsibilities: Calls, on-line and off-line sales, work with post, communication with China suppliers, purchase of goods, managing up to 5 employees.</td>
+                </tr>
+                <tr>
+                  <td>Apr, 2016 - May, 2018</td>
+                  <td class="worktype">- Foreman firehouse (Mogilev District Department of Emergency Situations). Responsibilities: accounting, acceptance and cancellation of material values.</td>
+                </tr>
+                <tr>
+                  <td>Feb, 2015 - Nov, 2017</td>
+                  <td class="worktype">- Co-founder 'PodZamkom QuestRoom Mogilev'. All the responsibilities from quest development to marketing, sales, administrating, etc</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        <article class="education" id="education">
+          <div>
+            <section class="educat">
+              <h2>EDUCATION</h2><br>
+              <p class="year">2012 - 2017</p><br>
+              <p>Belarus State Economic University<br>
+                School of International Economic Relationships</p>
+            </section>
+            <section class="engLevel">
+              <h2>ENGLISH LEVEL</h2><br>
+              <p>I estimate my English level at B1. I've passed some free Internet tests which approved my expectations (also EPAM online test). During trips it was a pleasure speaking with citizens in English, but sometimes the lack of English speech practice made me feel discomfort and shyness.</p>
+              <p>So, I have a desire to speak fluently in English (and watch Engilsh movies) :)</p>
+            </section>
+          </div>  
+        </article>
+      </main>
+      <footer>
+        <div class="footer">
+          <section class="contacts" id="contacts">
+            <h2>CONTACTS</h2>
+            <p class="tel">tel/Telegram: <a href="tel: +375293757095">+375293757095</a></p>
+            <p class="git">RSAPP/Git: <a href="https://github.com/pyzhovartyom">pyzhovartyom</a></p>
+            <p class="skype">skype: <a href="skype:bekxem103">bekxem103</a></p>
+            <p class="email">e-mail: <a href="mailto:pyzhovartyom@gmail.com">pyzhovartyom@gmail.com</a></p>
+            <p><a href="#body">TOP &uArr;</a></p>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
