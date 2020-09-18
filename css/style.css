@@ -1,0 +1,218 @@
+:root {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Menu */
+
+header {
+    background-color: rgb(29, 29, 29);
+    /* position: sticky; */
+}
+
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+ul.menu > li > a {
+    padding: 0.7em;
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px #fff solid;
+}
+
+ul.menu > li > a:hover {
+    transition: background-color, color 1s;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.leftmenu {
+    border-left: 1px #fff solid;
+}
+
+/* PHOTO + BIO */
+
+.bio {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat url("../img/main.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.bio .personalInfo {
+    max-width: 20%;
+    padding: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    border-left: 3px #000 solid;
+}
+
+.bio .personalInfo:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 1s;
+}
+
+.bio h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* SKILLS AND CODE EXAMPLE */
+
+.skillsAndCode {
+    background-color: rgb(29, 29, 29);
+}
+
+.skillsAndCode div {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.skillsAndCode h2 {
+    font-size: 1.8em;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.skillsAndCode ul {
+    padding: 0.5em 0;
+}
+
+.skillsAndCode li {
+    padding: 0.2em 0;
+}
+
+.skillsAndCode li:hover {
+    color: rgb(255, 231, 95);
+    transition: color 1s;
+    cursor: pointer;
+}
+
+/* WORK EXP */
+
+.workExp h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.workExp tr {
+    display: flex;
+    padding: 10px 0;
+}
+
+.workExp td {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* EDUCATION */
+
+.education {
+    background-color: rgb(29, 29, 29);
+}
+
+.education section {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 2em;
+}
+
+.education .year {
+    font-size: 1.4em;
+}
+
+/* CONTACTS */
+
+.contacts {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.contacts h2 {
+    font-size: 2em;
+    padding-bottom: 0.7em;
+}
+
+.contacts p {
+    padding: 0.25em 0;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacts .tel {
+    color: #95ffff;
+}
+
+.contacts .git {
+    color: #4a9732;
+}
+
+.contacts .skype {
+    color: #628bfd;
+}
+
+.contacts .email {
+    color: #ffae95;
+}
+
+.contacts .tel a:hover {
+    color: #95ffff;
+    transition: color 1s;
+}
+
+.contacts .git a:hover {
+    color: #4a9732;
+    transition: color 1s;
+}
+
+.contacts .skype a:hover {
+    color: #628bfd;
+    transition: color 1s;
+}
+
+.contacts .email a:hover {
+    color: #ffae95;
+    transition: color 1s;
+}
+
+/* TOTAL SETTINGS */
+
+ul.menu,
+.bio,
+.skillsAndCode div,
+.workExp div,
+.education div,
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
